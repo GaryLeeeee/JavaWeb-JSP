@@ -9,7 +9,7 @@
 	边C:<input type="text" name="sideC"  size=5>
 	<input type="submit" value="提交">
 </form>
-	<jsp:setProperty property="*" name="tri"/>
+	<jsp:setProperty property="*"name="tri"/>
 	三角形的三边是:<br>
 	边A:<jsp:getProperty property="sideA" name="tri"/>
 	边B:<jsp:getProperty property="sideB" name="tri"/>

@@ -2,7 +2,7 @@
 <html>
 <body>
 <form action="computeBill" method="post">
-	 ‰»Î’Àµ•<br>
+	 ‰»Î’Àµ•:<br>
 	<textarea name="billMess" rows="5" cols="30" placeholder="œ¥“¬∑€:12.8‘≤
 ø…¿÷:12‘≤
 ≈›≤À:0.58‘≤">
