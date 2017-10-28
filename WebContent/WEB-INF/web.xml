@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<web-app>
+
+	<!-- spring mvc核心：分发servlet -->
+	<servlet>
+		<servlet-name>computeBill</servlet-name>
+		<servlet-class>myservlet.control.Example5_2_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>computeBill</servlet-name>
+		<url-pattern>/computeBill</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>compute</servlet-name>
+		<servlet-class>myservlet.control.Example6_2_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>compute</servlet-name>
+		<url-pattern>/compute</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>postman</servlet-name>
+		<servlet-class>myservlet.control.Postman</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>postman</servlet-name>
+		<url-pattern>/postman</url-pattern>
+	</servlet-mapping>
+
+</web-app>
