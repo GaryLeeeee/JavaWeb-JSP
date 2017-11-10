@@ -29,4 +29,21 @@
 		<url-pattern>/postman</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>readTestServlet</servlet-name>
+		<servlet-class>myservlet.control.Example7_10_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>readTestServlet</servlet-name>
+		<url-pattern>/readTestServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>endTestServlet</servlet-name>
+		<servlet-class>myservlet.control.Example7_10_End_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>endTestServlet</servlet-name>
+		<url-pattern>/endTestServlet</url-pattern>
+	</servlet-mapping>
 </web-app>
